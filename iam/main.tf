@@ -138,6 +138,38 @@ resource "aws_iam_policy" "cloud_resource_map_readonly" {
         ]
         Resource = "*"
       },
+      {
+        Sid    = "AppRunnerReadOnly"
+        Effect = "Allow"
+        Action = [
+          "apprunner:ListServices",
+          "apprunner:DescribeService",
+          "apprunner:ListOperations",
+        ]
+        Resource = "*"
+      },
+      {
+        Sid    = "ECSReadOnly"
+        Effect = "Allow"
+        Action = [
+          "ecs:ListClusters",
+          "ecs:DescribeClusters",
+          "ecs:ListServices",
+          "ecs:DescribeServices",
+          "ecs:ListTasks",
+        ]
+        Resource = "*"
+      },
+      {
+        Sid    = "CloudTrailReadOnly"
+        Effect = "Allow"
+        Action = [
+          "cloudtrail:DescribeTrails",
+          "cloudtrail:GetTrailStatus",
+          "cloudtrail:ListTrails",
+        ]
+        Resource = "*"
+      },
     ]
   })
 }
