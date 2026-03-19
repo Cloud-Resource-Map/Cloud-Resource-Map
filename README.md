@@ -13,10 +13,12 @@ No cloud experience required.
 - Works with AWS, Azure, and GCP — connect one or all three
 - Runs entirely on your own machine — your credentials never leave your computer
 
-## Cloud Resource Map Console:
-![Cloud Resource Map.png](Cloud Resource Map.png)
 ---
+## Cloud Resource Map Console:
 
+![Cloud Resource Map](Cloud-Resource-Map.png)
+
+---
 ## Requirements
 
 You need two things installed before you start:
