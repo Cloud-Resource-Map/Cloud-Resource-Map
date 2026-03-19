@@ -33,7 +33,7 @@ That is it. No Python, no Node.js, no AWS CLI required.
 Open a terminal (on Windows: PowerShell or Command Prompt) and run:
 
 ```bash
-git clone https://github.com/cloudlens-io/cloud-resource-map.git
+git clone https://github.com/Cloud-Resource-Map/Cloud-Resource-Map.git
 cd cloud-resource-map
 ```
 
